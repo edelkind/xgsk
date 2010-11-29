@@ -1,0 +1,25 @@
+X Grab Single Key
+
+Grab the keyboard for a single KeyPress event.  Echo the key press on
+stdout.
+
+xgsk can optionally time out at a certain interval (given in
+milliseconds), at which point nothing will be echoed to stdout
+("timeout" will be echoed on stderr).
+
+---------------------------------------------------------------
+> xgsk -h
+usage: xgsk [options]
+ -> X Grab Single Key
+
+Options:
+  -r, --on-release      quit on key release vs. press (bool: 0)
+  -s, --sync-mouse      make mouse events synchronous (bool: 0)
+  -t, --timeout         timeout in ms, or 0 (uint: 0)
+---------------------------------------------------------------
+
+
+Return values:
+  - key pressed: 0
+  - timeout: 0 (but nothing is echoed)
+  - error: 1
