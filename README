@@ -9,7 +9,7 @@ milliseconds), at which point nothing will be echoed to stdout
 
 WHY, you ask?
 Many window managers support key combinations, but not key chaining.
-xgsk allows the users to add key chaining to their window manager of
+xgsk allows the user to add key chaining to his window manager of
 choice with a small script.
 
 
