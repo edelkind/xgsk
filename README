@@ -7,6 +7,12 @@ xgsk can optionally time out at a certain interval (given in
 milliseconds), at which point nothing will be echoed to stdout
 ("timeout" will be echoed on stderr).
 
+WHY, you ask?
+Many window managers support key combinations, but not key chaining.
+xgsk allows the users to add key chaining to their window manager of
+choice with a small script.
+
+
 ---------------------------------------------------------------
 > xgsk -h
 usage: xgsk [options]
